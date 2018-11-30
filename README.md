@@ -2,7 +2,7 @@
 	TallyPiazzaPollResults -- Builds a CSV file from downloaded Piazza polls
 
 ## SYNOPSIS
-	java TallyPiazzaPollResults pollFile [...] -a pollFileAnswer [...]
+	TallyPiazzaPollResults pollFile [...] -a pollFileAnswer [...]
 
 ## DESCRIPTION
 	TallyPiazzaPollResults processes one or more downloaded Piazza poll statistics files
