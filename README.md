@@ -9,9 +9,9 @@
 	and outputs a CSV file summarizing their results.  The resulting CSV is organized like:
 
 	    studentKey         		   	 pollFileName1 pollFileName2 ... participated awarded
-	    student1@u.boisestate.edu		     4	         3			       2         2
-	    student2@u.boisestate.edu	   		 2					           1         0
-	    student3@u.boisestate.edu			 4		     3				   2	     2
+	    student1@u.boisestate.edu		     4	         3		      2         2
+	    student2@u.boisestate.edu	   	     2			              1         0
+	    student3@u.boisestate.edu		     4		 3	              2	        2
 
 	 ...with a header row followed by one row of data for each student who took any of
 	 the specified polls.  Each student row has a column for that student's eMail address
