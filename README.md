@@ -1,8 +1,16 @@
 # NAME
 	TallyPiazzaPollResults -- Builds a CSV file from downloaded Piazza polls
 
-## SYNOPSIS
-	TallyPiazzaPollResults pollFile [...] -a pollFileAnswer [...]
+## Usage
+	TallyPiazzaPollResults pollOneFile [...] -a pollOneAnswer [...]
+	
+	The pollFile argument is the downloaded poll file from Piazza. The pollAnswer argument is
+	the integer value that corresponds to the correct answer choice for the appropriate Piazza poll.
+	
+	Example: TallyPiazzaPollResults pollOneFile.html pollTwoFile.html -a 2 3
+	
+	In the above example 2 is the answer choice for pollOneFile.html and 3 is the answer choice for
+	pollTwoFile.html.
 
 ## DESCRIPTION
 	TallyPiazzaPollResults processes one or more downloaded Piazza poll statistics files
@@ -29,8 +37,8 @@
 	 All entries in the CSV are separated by commas.
 
 ## TECHNOLOGY
-* Requires C++11
-* Created and tested in Ubuntu
+	* Requires C++11
+	* Created and tested in Ubuntu
 
 ## POTENTIAL FUTURE WORK
-* TallyPiazzaPollResults.cpp main method is somewhat 'hacked' and should probably be refactored
+	* TallyPiazzaPollResults.cpp main method is somewhat 'hacked' and should probably be refactored
